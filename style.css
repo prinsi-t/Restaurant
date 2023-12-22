@@ -21,36 +21,61 @@ ul{
     font-size: 20px;
 }
 
-i{
+ul li,.icons i:hover{
+    cursor: pointer;
+}
+
+.icons i{
     margin-top: 1.3em;
     font-size: 1.2em;
+    margin-left: 1em;
 }
 
 main h1{
-    font-size: 50px;
-    margin-top: 3em;
-    margin-left: 5em;
+    font-size: 4em;
+    margin-top: 1em;
+    margin-left: 2em;
 }
 
 main .devs{
-    margin-left: 1em;
+    margin-left: -0.3em;
     background-color: rgb(255, 136, 0);
-    padding: 10px;
+    padding: 10.5px 13px;
     color: white;
 }
 
-main input{
-    padding: 10px;
+main .devs:hover{
+    cursor: pointer;
 }
 
-main input,.devs{
-    margin-left: 18em;
-    border: none;
+main input{
+    padding: 10px 15em 10px 15px;
     
 }
 
+main input,.devs{
+    margin-left: 9.5em;
+    border: none;
+    border: 2px solid #e5ebea;
+}
+
+main .social i{
+    color: #ff8800;
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+main .social span{
+    font-weight: bold;
+    margin-left: 0.3em;
+}
+
 main .social{
-    color: orangered;
+    margin-left: 4em;
+}
+
+main .social:hover{
+    cursor: pointer;
 }
 
 @media all and (max-width: 600px){
@@ -79,36 +104,57 @@ main .social{
 
 }
 
+
+
 .middle{
-    justify-content: flex-end;
     flex-direction: column;
-    align-items: center;
     font-size: 20px;
-    background-image: url(https://i.ytimg.com/vi/8QoeoN0tIVY/maxresdefault.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/brooke-lark-pie.jpg);
     background-size: cover;
+    height: 650px;
+    margin-top: -1em;
+   
+}
+
+.middle h2{
+    margin-left: 8.5em;
+    font-size: 2em;
 }
 
 .middle .blue{
     width: 10%;
     border: none;
     background-color: rgb(255, 136, 0);
-    padding: 10px;
+    padding: 12px 10px;
+    border-radius: 0.5em;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 19em;
+    margin-top: 1em;
+}
+
+.middle .blue:hover{
+    cursor: pointer;
+    background-color: #f18305;
 }
 
 .middle span{
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-left: 16em;
+    color: #ff8800;
 }
 
 .middle p{
-    font-weight: bolder;
+    margin-left: 17em;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 60%;
 }
 
 .mars{
     flex-direction: column;
     align-items: center;
     margin-top: 5em;
-    background-color: rgb(242, 246, 247);
+    
 }
 
 .mars h2{
@@ -151,7 +197,7 @@ main .social{
     justify-content: space-evenly;
     font-size: 20px;
     margin-top: 1em;
-    background-image: url(https://www.westend61.de/images/0001396976pw/high-angle-view-of-coffee-cup-with-laptop-on-white-background-EYF05772.jpg);
+    background-image: url(images/brooke-lark-bg-breakfast.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
