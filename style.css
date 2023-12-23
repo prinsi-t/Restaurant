@@ -146,8 +146,12 @@ main .social:hover{
 
 .middle p{
     margin-left: 17em;
-    background-color: rgba(255, 255, 255, 0.4);
+   font-weight: bold;
     width: 60%;
+}
+
+.order{
+    background-color: rgb(242, 246, 247);
 }
 
 .mars{
@@ -158,20 +162,35 @@ main .social:hover{
 }
 
 .mars h2{
-    font-size: 30px;
+    font-size: 45px;
+    color: #090920;
+    margin-top: 0.5em;
 }
 
 .mars span{
+    font-size: 18px;
     color: rgb(255, 136, 0);
+    margin-top: 3em;
 }
 
+
+.order ul {
+    margin-left: 16em;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+}
+
+.order ul li{
+    margin-left: -16em;
+    
+}
 
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 10px;
-    background-color: rgb(242, 246, 247);
+    
 }
 
 .container .items img{
