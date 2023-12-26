@@ -79,6 +79,14 @@ main .social:hover{
 }
 
 @media all and (max-width: 600px){
+
+    header{
+        background-size: contain;
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
     header nav,ul{
         float: left;
         width: 100%;
@@ -101,6 +109,28 @@ main .social:hover{
         margin-left: 0;
         float: left;
     }
+
+    
+
+}
+
+
+@media all and (max-width: 1024px){
+    header{
+        height: 600px;
+        width: 100%;
+     
+    }
+
+    header nav ul{
+        margin-left: 10em;
+        font-size: 18px;
+    }
+
+    .icons {
+        margin-left: -3em;
+    }
+
 
 }
 
@@ -150,6 +180,27 @@ main .social:hover{
     width: 60%;
 }
 
+@media all and (max-width: 1024px){
+    .middle{
+        height: 700px;
+    }
+
+    .middle h2{
+        font-size: 1.6em;
+        margin-left: 10.5em;
+    }
+
+    .middle p{
+        font-size: 18px;
+        margin-left: 18.5em;
+    }
+
+    .middle .blue{
+        padding: 10px 8px;
+        width: 15%;
+    }
+}
+
 .order{
     background-color: rgb(242, 246, 247);
 }
@@ -189,8 +240,6 @@ main .social:hover{
     color: #ff8800;
 }
 
-
-
 .container .item{
     display:  flex;
     flex-direction: wrap;
@@ -198,9 +247,9 @@ main .social:hover{
     justify-content: center;
 }
 
-.container img{
-    width: 300px;
-    height: 400px;
+.container .item img {
+    width: 250px;
+    height: 350px;
 }
 
 
@@ -216,6 +265,40 @@ main .social:hover{
         width: 100%;
     }
 }
+
+@media all and (max-width: 1024px){
+    .mars h2{
+        font-size: 40px;
+    }
+
+    .order ul {
+        margin-left: 10em;
+    }
+
+    .order ul {
+        padding-left: 0;
+    }
+  
+
+    .container .item{
+      /*   width: 100%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+   
+    
+    .container .item img{
+         width: 200px;
+        height: 300px; 
+    
+    
+    }
+}
+
+
 
 
 .contact{
@@ -289,11 +372,38 @@ main .social:hover{
     }
 }
 
+@media all and (max-width: 1024px){
+    .contact h2{
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .contact .time h4{
+        font-size: 14px;
+    }
+    
+    .contact .time span{
+        font-size: 20px;
+    }
+
+    .contact .second{
+        margin: -4em 0 0 25em;
+    }
+
+    .contact img{
+        width: 550px;
+        height: 270px;
+        
+    }
+    
+}
+
 footer{
     flex-direction: column;
     align-items: center;
     font-size: 20px;
     background-color: rgb(248, 249, 250);
+    height: 550px;
 }
 
 footer img{
@@ -320,6 +430,7 @@ footer p{
     text-align: center;
     width: 50%;
     margin-top: 0;
+    
 }
 
 @media all and (max-width: 600px){
