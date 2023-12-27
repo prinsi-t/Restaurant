@@ -78,41 +78,7 @@ main .social:hover{
     cursor: pointer;
 }
 
-@media all and (max-width: 600px){
 
-    header{
-        background-size: contain;
-        width: 100%;
-        float: left;
-        margin: 0;
-    }
-
-    header nav,ul{
-        float: left;
-        width: 100%;
-        margin: 0;
-
-    }
-
-    header main{
-        float: left;
-        width: 100%;
-        margin: 0;
-    }
-
-    header main h1{
-        margin-left: 0;
-        float: left;
-    }
-
-    header main input{
-        margin-left: 0;
-        float: left;
-    }
-
-    
-
-}
 
 
 @media all and (max-width: 1024px){
@@ -132,6 +98,41 @@ main .social:hover{
     }
 
 
+}
+
+@media all and (max-width: 600px){
+
+    header{
+     /*    background-size: cover; */
+        /* float: left; */
+     /*    margin: 0; */
+        width: 600px;
+    }
+
+    header main h1{
+        margin-left: 0.5em;
+        font-size: 60px;
+    }
+
+    header main input{
+        margin-left: 0.8em;
+        padding: 12px 15em 12px 15px;
+        font-size: 16px;
+    }
+
+    main .social{
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    header nav ul{
+        display: none;
+    }
+
+    header nav .icons{
+        margin-left: -30em;
+        font-size: 1em;
+    }
 }
 
 
@@ -201,6 +202,36 @@ main .social:hover{
     }
 }
 
+@media all and (max-width: 600px){
+    .middle{
+        float: left;
+        background-size: cover;
+        width: 600px;
+        height: 800px;
+    }
+
+    .middle p{
+        float: left;
+        margin-left: 1.5em;
+        width: 90%;
+    }
+
+    .middle span{
+        margin-left: 0.5em;
+    }
+
+    .middle h2{
+        margin-left: 1em;
+    }
+
+    .middle .blue{
+        padding: 12px 10px;
+        width: 25%;
+        margin-left: 1.5em;
+        
+    }
+}
+
 .order{
     background-color: rgb(242, 246, 247);
 }
@@ -259,12 +290,7 @@ main .social:hover{
 
 
 
-@media all and (max-width: 600px){
-    .container{
-        float: left;
-        width: 100%;
-    }
-}
+
 
 @media all and (max-width: 1024px){
     .mars h2{
@@ -298,7 +324,63 @@ main .social:hover{
     }
 }
 
+@media all and (max-width: 600px){
+    .container{
+        float: left;
+        width: 100%;
+    }
 
+    .order .mars{
+        float: left;
+        width: 100%;
+    }
+
+     .mars span{
+        float: left;
+        margin-left: 10em;
+    }
+
+     .mars h2{
+        float: left;
+        margin-left: 5em;
+        width: 100%;
+    }
+
+
+    .order ul{
+        margin-left: 4.5em;
+        float: left;
+        width: 100%;
+    }
+
+    .uls{
+        width: 100%;
+    }
+
+    .container .item{
+        display:  flex;
+        flex-direction: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1em;
+    }
+
+    .container .item img{
+        width: 250px;
+       height: 350px; 
+   
+   
+   }
+
+    .container .poody{
+        display:  flex;
+        flex-direction: nowrap;
+        flex-direction: column;
+        margin: -96em 0 0 19em;
+       
+    }
+
+}
 
 
 .contact{
@@ -351,7 +433,7 @@ main .social:hover{
 }
 
 .contact .first{
-    margin: 3em 0 0 -0;
+    margin: 3em 0 0 0;
 }
 
 .contact .second{
@@ -365,12 +447,6 @@ main .social:hover{
     margin-bottom: 2em;
 }
 
-@media all and (max-width: 600px){
-    .contact {
-        float: left;
-        width: 100%;
-    }
-}
 
 @media all and (max-width: 1024px){
     .contact h2{
@@ -393,6 +469,29 @@ main .social:hover{
     .contact img{
         width: 550px;
         height: 270px;
+        
+    }
+    
+}
+
+
+@media all and (max-width: 600px){
+    .contact {
+        float: left;
+        width: 600px;
+    }
+
+    .contact .first{
+        margin: 3em 0 0 1em;
+    }
+
+    .contact .second{
+        margin: -4em 0 0 20em;
+    }
+
+    .contact img{
+        width: 500px;
+        height: 250px;
         
     }
     
@@ -436,7 +535,7 @@ footer p{
 @media all and (max-width: 600px){
     footer{
         float: left;
-        width: 100%;
+        width: 600px;
     }
 }
 
