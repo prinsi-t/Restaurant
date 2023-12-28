@@ -107,7 +107,7 @@ main .social:hover{
         /* float: left; */
      /*    margin: 0; */
         width: 100%;
-        height: 600px;
+        height: 580px;
     }
 
     header main h1{
@@ -185,7 +185,7 @@ main .social:hover{
 
 @media all and (max-width: 1024px){
     .middle{
-        height: 730px;
+        height: 750px;
     }
 
     .middle h2{
@@ -369,7 +369,7 @@ main .social:hover{
         flex-direction: wrap;
         flex-direction: column;
         justify-content: center;
-        margin-left: -1em;
+        margin-left: -0.5em;
     }
 
     .container .item img{
@@ -383,7 +383,7 @@ main .social:hover{
         display:  flex;
         flex-direction: nowrap;
         flex-direction: column;
-        margin: -73.5em 0 0 10.5em;
+        margin: -73.5em 0 0 10em;
        
     }
 
