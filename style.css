@@ -370,7 +370,7 @@ main .social:hover{
         flex-direction: wrap;
         flex-direction: column;
         justify-content: center;
-        margin-left: -0.2em;
+        margin-left: -0.4em;
 
     }
 
@@ -385,7 +385,7 @@ main .social:hover{
         display:  flex;
         flex-direction: nowrap;
         flex-direction: column;
-        margin: -73.5em 0 0 9.7em;
+        margin: -73.5em 0 0 10.1em;
        
     }
 
