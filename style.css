@@ -369,7 +369,7 @@ main .social:hover{
         flex-direction: wrap;
         flex-direction: column;
         justify-content: center;
-        margin-left: -0.1em;
+        
     }
 
     .container .item img{
@@ -383,7 +383,7 @@ main .social:hover{
         display:  flex;
         flex-direction: nowrap;
         flex-direction: column;
-        margin: -73.5em 0 0 9.6em;
+        margin: -73.5em 0 0 9.5em;
        
     }
 
