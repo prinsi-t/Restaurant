@@ -107,7 +107,7 @@ main .social:hover{
         /* float: left; */
      /*    margin: 0; */
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
 
     header main h1{
@@ -117,13 +117,13 @@ main .social:hover{
 
     header main input{
         margin-left: 0.8em;
-        padding: 12px 30px 12px 15px;
+        padding: 12px 15px;
         font-size: 16px;
         margin-top: 2em;
     }
 
     main .social{
-        margin-left: -2em;
+        margin-left: -3em;
         font-size: 18px;
     }
 
@@ -185,7 +185,7 @@ main .social:hover{
 
 @media all and (max-width: 1024px){
     .middle{
-        height: 700px;
+        height: 730px;
     }
 
     .middle h2{
@@ -343,7 +343,7 @@ main .social:hover{
 
      .mars h2{
         float: left;
-        width: 90%;
+        width: 100%;
         font-size: 35px;
     }
 
@@ -352,7 +352,7 @@ main .social:hover{
         margin-left: 0;
         float: left;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .order ul li{
@@ -373,8 +373,8 @@ main .social:hover{
     }
 
     .container .item img{
-        width: 180px;
-       height: 280px; 
+        width: 160px;
+       height: 260px; 
    
    
    }
@@ -383,7 +383,7 @@ main .social:hover{
         display:  flex;
         flex-direction: nowrap;
         flex-direction: column;
-        margin: -78.5em 0 0 10.5em;
+        margin: -73.5em 0 0 10.5em;
        
     }
 
