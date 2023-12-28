@@ -342,15 +342,21 @@ main .social:hover{
 
      .mars h2{
         float: left;
-        margin-left: 5em;
-        width: 100%;
+        margin-left: 6em;
+        width: 110%;
     }
 
 
     .order ul{
         margin-left: 4.5em;
         float: left;
-        width: 100%;
+        width: 110%;
+        font-size: 22px;
+    }
+
+    .order ul li{
+        margin-left: 1em;
+        
     }
 
     .uls{
